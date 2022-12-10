@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 numpy = "==1.23.5"
 matplotlib = "==3.6.2"
+pyqt5 = "==5.15.7"
 
 [dev-packages]
 pylint = "==2.15.8"
