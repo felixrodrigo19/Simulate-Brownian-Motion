@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 def main():
     n = 10000
     d = 10
-    end_time = 1.
-    times = np.linspace(0., end_time, n)
+    end_time = 1.0
+    times = np.linspace(0.0, end_time, n)
     dt = times[1] - times[0]
     dB = np.sqrt(dt) * np.random.normal(size=(n - 1, d))
     B0 = np.zeros(shape=(1, d))
